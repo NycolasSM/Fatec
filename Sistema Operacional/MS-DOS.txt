@@ -1,0 +1,28 @@
+MS-DOS
+
+comandos
+
+c: - para ir para o disco C:\
+cls - limpar o terminal
+md ou mkdir - criar pasta
+cd\ - retorna para a raiz
+attrib - alterar o atributo do arquivo
+	sintaxe: attrib "meu texto.txt" (atributo) (+ ou -)
+	atibutos: h (hide) r (readonlymd)
+	ex: hide- readonly+
+del - deletar aquivo
+rm - remover pasta
+move - mover arquivo
+	sintaxe: move (pasta) c:\
+dir - ver conteudo da pasta
+re ou rename - renomear arquivo
+copy - copiar arquivos
+copy con - criar arquivo de texto
+move - mover arquivo
+
+start - executar o programa
+
+atalhos 
+
+F6 - salvar arquivo
+
