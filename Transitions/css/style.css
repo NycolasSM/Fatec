@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background__map {
+    height: 2200px;
+    margin-left: -1300px;
+    margin-top: -100px;
+    background-color: black;
+}
+
+
+.character {
+    position: absolute;
+    height: 80px;
+}
+
+.character.red {
+    top: 270px;
+    left: 1000px;
+
+    animation: char_red 8s infinite 2s linear;
+}
+
+.sprite.red {
+    height: 50px;
+    width: 50px;
+    background: url('../assets/sprites/among_us_characters.png') -132px -0px no-repeat;
+    animation: char_red_mov 0.45s infinite steps(4);
+    height: 135px;
+    width: 130px;
+    transform: scale(0.7);
+}
+
+@keyframes char_red_mov {
+    100% {
+        background-position-y: -517px;
+    }
+}
+
+.character.blue {
+    top: 450px;
+    left: 1030px;
+    animation: char_blue 4s forwards 1.6s linear;
+}
+
+.character.yellow {
+    top: 450px;
+    left: 750px;
+    animation: char_yellow 5s forwards 1.4s linear;
+}
+
+.character.green {
+    top: 295px;
+    left: 760px;
+    animation: char_green 5s forwards 1.8s linear;
+}
+
+.emergency_meeting {
+    position: absolute;
+}
+
+@keyframes char_red {
+    0% {
+        top: 270px;
+        left: 1000px;
+    }
+
+    25% {
+        top: 340px;
+        left: 1380px;
+    }
+
+    50% {
+        top: 340px;
+        left: 1380px;
+    }
+
+    70% {
+        top: 250px;
+        left: 1000px;
+    }
+
+    85% {
+        top: 185px;
+        left: 840px;
+    }
+
+    95% {
+        top: 185px;
+        left: 840px;
+    }
+
+    100% {
+        top: 260px;
+        left: 890px;
+        background-position-y: -517px;
+    }
+}
+
+@keyframes char_yellow {
+    0% {
+        top: 450px;
+        left: 750px;
+    }
+
+    15% {
+        top: 330px;
+        left: 720px;
+    }
+
+    40% {
+        top: 190px;
+        left: 900px;
+    }
+
+    60% {
+        top: 190px;
+        left: 900px;
+    }
+
+    75% {
+        top: 180px;
+        left: 800px;
+    }
+
+    100% {
+        top: 180px;
+        left: 800px;
+    }
+}
+
+
+@keyframes char_green {
+    0% {
+        top: 295px;
+        left: 760px;
+    }
+
+    10% {
+        top: 240px;
+        left: 750px;
+    }
+
+    30% {
+        top: 240px;
+        left: 750px;
+    }
+
+    60% {
+        top: 350px;
+        left: 520px;
+    }
+
+    80% {
+        top: 370px;
+        left: 280px;
+    }
+
+    100% {
+        top: 370px;
+        left: -60px;
+    }
+}
+
+
+@keyframes char_blue {
+    0% {
+        top: 450px;
+        left: 1030px;
+    }
+
+    10% {
+        top: 480px;
+        left: 1010px;
+    }
+
+    25% {
+        top: 540px;
+        left: 900px;
+    }
+
+    40% {
+        top: 680px;
+        left: 860px;
+    }
+
+    60% {
+        top: 850px;
+        left: 920px;
+    }
+
+    80% {
+        top: 1010px;
+        left: 920px;
+    }
+
+    100% {
+        top: 990px;
+        left: 1170px;
+    }
+}
